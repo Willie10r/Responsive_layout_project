@@ -1,12 +1,28 @@
 
 /* the responsive part */
-@media screen and (min-width: 320px) {
+@media (min-width: 320px) {
+
+  .name,
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    }
+  h2 {
+    
+
+  }
+    .pics {
+        width: 80vw;
+    }
+
     
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     
 }
