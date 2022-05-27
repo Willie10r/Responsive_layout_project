@@ -3,19 +3,23 @@
 @media (min-width: 320px) {
 
   .name,
-  .main-nav {
+  .main-nav,
+  h2,
+  h3 {
     display: flex;
     flex-direction: column;
-    width: 100vw;
     align-items: center;
-    }
-  h2 {
     
-
-  }
+   
+    
+    }
+  
     .pics {
         width: 80vw;
     }
+  ul {
+    list-style: none;
+  }
 
     
 }
