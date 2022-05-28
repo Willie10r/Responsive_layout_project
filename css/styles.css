@@ -11,6 +11,7 @@ h1,
 h2, 
 h3, 
 p {
+
   text-align: center;
 
 }
@@ -37,9 +38,35 @@ p {
 .fi-3 {
   min-height: 25px;
 }  
+
+
+
+.footer-nav {
+
+}
+.fi-4 {
   
+}
+
+    
+
+.fi-5, .fi-6, .fi-7 {
+  display: none;
+}
+
 
 @media (min-width: 768px) {
+  .footer-nav {
+
+  }
+  .fi-4 {
+    display: none;
+  }
+  
+  .fi-5, .fi-6, .fi-7 {
+    
+  }
+    
     
 }
 
