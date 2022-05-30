@@ -26,7 +26,7 @@ p {
     }
 
 .fi {
-  
+
 }
 
 .fi-1 {
@@ -42,13 +42,11 @@ p {
 
 
 .footer-nav {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.fi-4 {
-  
-}
 
-    
 
 .fi-5, .fi-6, .fi-7 {
   display: none;
@@ -64,7 +62,7 @@ p {
   }
   
   .fi-5, .fi-6, .fi-7 {
-    display: ;
+    display: block;
   }
     
     
