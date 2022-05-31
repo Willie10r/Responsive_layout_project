@@ -8,7 +8,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
-  
 }
 h1, 
 h2, 
@@ -18,7 +17,6 @@ p {
   text-align: center;
 
 }
-
   .main-nav {
     display: flex;
     flex-direction: column;
@@ -29,11 +27,9 @@ p {
    
     
     }
-
 .fi {
 
 }
-
 .fi-1 {
   min-height: 25px;
 } 
@@ -43,34 +39,90 @@ p {
 .fi-3 {
   min-height: 25px;
 }  
-
-
-
 .footer-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-
 .fi-5, .fi-6, .fi-7 {
   display: none;
 }
 
 
 @media (min-width: 768px) {
-  .footer-nav {
+  /* Flex for the main nav and name */
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .fi-1 {
+      margin-left: 10em;
+    }
+    .fi-3 {
+      margin-right: 10em;
+    }
+    /* Flex for the profile pic and enrty satment. */
+  .panda {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .panda-2 {
+  margin-top: 5em;
+  margin-left: 5em;
+  text-align: left;
+  }
+  /* Flex for the articles and pics */
+  .sub {
+
+    display: grid;
+    grid-template-rows: 2fr,2fr,2fr;
+    grid-template-columns: 2fr,2fr;
 
   }
-  .fi-4 {
-    display: none;
+  .sub-1-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
+  .sub-1-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  /* picture width correction */
+  .pics {
+    width: 325px;
+  }
+  /* Flex for the footer nav */
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: f;
   
+  }
+  .fi-8 {
+    margin-right: 20rem;
+  }
   .fi-5, .fi-6, .fi-7 {
     display: block;
   }
     
-    
+  .fi-4 {
+    display: none;
+  }
+  .ending {
+    display: inline-block;
+    margin-left: 10em;
+    margin-right: 10em;
+ 
+  }
 }
 
 @media (min-width: 1024px) {
