@@ -27,9 +27,7 @@ p {
    
     
     }
-.fi {
 
-}
 .fi-1 {
   min-height: 25px;
 } 
@@ -126,5 +124,79 @@ p {
 }
 
 @media (min-width: 1024px) {
+  /* Flex for the main nav and name */
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 75vw;
+
+    }
+
+    /* Flex for the profile pic and enrty satment. */
+  .panda {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .panda-2 {
+  margin-top: 5em;
+  margin-left: 5em;
+  text-align: left;
+  }
+  /* Flex for the articles and pics */
+  .sub {
+
+    display: grid;
+    grid-template-rows: 2fr,2fr,;
+    grid-template-columns: 2fr,2fr,2fr;
+
+  }
+  .sub-1-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .sub-1-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  .sub-1-3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+  /* picture width correction */
+  .pics {
+    width: 320px;
+  }
+  /* Flex for the footer nav */
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: f;
+  
+  }
+  .fi-8 {
+    margin-right: 20rem;
+  }
+  .fi-5, .fi-6, .fi-7 {
+    display: block;
+  }
+    
+  .fi-4 {
+    display: none;
+  }
+  .ending {
+    display: inline-block;
+    margin-left: 15em;
+    margin-right: 15em;
+ 
+  }
+
     
 }
