@@ -172,6 +172,7 @@ p {
   .panda {
     display: flex;
     flex-direction: row-reverse;
+    
   }
 
   .panda-2 {
