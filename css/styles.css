@@ -1,5 +1,7 @@
 
 /* the responsive part */
+
+
 ul {
   list-style: none;
 }
@@ -16,7 +18,7 @@ h1,
 h2, 
 h3, 
 p {
-
+  font-family: Roboto;
   text-align: center;
 
 }
@@ -228,6 +230,7 @@ p {
   }
   .fi-8 {
     margin-right: 40em;
+    font-weight: 900;
   }
   .fi-5, .fi-6, .fi-7 {
     display: block;
@@ -238,12 +241,13 @@ p {
   }
   .ending {
     display: inline-block;
-    margin-left: 15em;
-    margin-right: 15em;
+    text-align: center;
+ 
  
   }
   .contact {
     margin-bottom: 5em;
+    text-align: center;
   }
     
 }
