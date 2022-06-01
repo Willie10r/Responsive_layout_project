@@ -9,6 +9,9 @@ ul {
   margin-right: auto;
   width: 80vw;
 }
+.fullscreen-name {
+  display: none;
+}
 h1, 
 h2, 
 h3, 
@@ -49,6 +52,10 @@ p {
 
 @media (min-width: 768px) {
   /* Flex for the main nav and name */
+  .fullscreen-name {
+    display: none;
+
+  }
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -102,14 +109,23 @@ p {
   .footer-nav {
     display: flex;
     flex-direction: row;
-    justify-content: f;
-  
   }
   .fi-8 {
     margin-right: 20rem;
   }
   .fi-5, .fi-6, .fi-7 {
     display: block;
+  }
+  .fi-5 {
+    margin-left: auto;
+  }
+  .fi-6 {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .fi-7 {
+    margin-right: 0;
+    margin-left: 20px;
   }
     
   .fi-4 {
@@ -125,6 +141,10 @@ p {
 
 @media (min-width: 1024px) {
   /* Flex for the main nav and name */
+  .fullscreen-name {
+    display: block;
+    margin-right: 6em;
+  }
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -132,7 +152,22 @@ p {
     width: 75vw;
 
     }
-
+    .fi-1 {
+      margin-left: auto;
+      margin-right: 0;
+    }
+    .fi-2 {
+      margin-left: 50px;
+      margin-right: 0;
+      
+    }
+    .fi-3 {
+      margin-left: 50px;
+      margin-right: 0;
+    }
+  h1 {
+    display: none;
+  }
     /* Flex for the profile pic and enrty satment. */
   .panda {
     display: flex;
@@ -178,11 +213,20 @@ p {
   .footer-nav {
     display: flex;
     flex-direction: row;
-    justify-content: f;
-  
+  }
+  .fi-5 {
+    margin-left: auto;
+  }
+  .fi-6 {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .fi-7 {
+    margin-right: 0;
+    margin-left: 20px;
   }
   .fi-8 {
-    margin-right: 20rem;
+    margin-right: 40em;
   }
   .fi-5, .fi-6, .fi-7 {
     display: block;
@@ -197,6 +241,8 @@ p {
     margin-right: 15em;
  
   }
-
+  .contact {
+    margin-bottom: 5em;
+  }
     
 }
