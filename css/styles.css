@@ -11,9 +11,6 @@ ul {
   margin-right: auto;
   width: 80vw;
 }
-.fullscreen-name {
-  display: none;
-}
 h1, 
 h2, 
 h3, 
@@ -54,10 +51,6 @@ p {
 
 @media (min-width: 768px) {
   /* Flex for the main nav and name */
-  .fullscreen-name {
-    display: none;
-
-  }
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -87,8 +80,8 @@ p {
   .sub {
 
     display: grid;
-    grid-template-rows: 2fr,2fr,2fr;
-    grid-template-columns: 2fr,2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
 
   }
   .sub-1-1 {
@@ -143,15 +136,16 @@ p {
 
 @media (min-width: 1024px) {
   /* Flex for the main nav and name */
-  .fullscreen-name {
-    display: block;
-    margin-right: 6em;
+  .even {
+    display: flex;
+    flex-direction: row;
   }
   .main-nav {
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
     width: 75vw;
+    margin-top: 25px;
 
     }
     .fi-1 {
@@ -167,9 +161,7 @@ p {
       margin-left: 50px;
       margin-right: 0;
     }
-  h1 {
-    display: none;
-  }
+  
     /* Flex for the profile pic and enrty satment. */
   .panda {
     display: flex;
@@ -186,8 +178,8 @@ p {
   .sub {
 
     display: grid;
-    grid-template-rows: 2fr,2fr,;
-    grid-template-columns: 2fr,2fr,2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
 
   }
   .sub-1-1 {
@@ -242,12 +234,9 @@ p {
   .ending {
     display: inline-block;
     text-align: center;
- 
- 
   }
   .contact {
     margin-bottom: 5em;
     text-align: center;
   }
-    
 }
