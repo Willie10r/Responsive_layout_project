@@ -142,8 +142,9 @@ p {
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
-    width: 75vw;
+    width: 80vw;
     margin-top: 25px;
+    margin-right: 0;
 
     }
     .fi-1 {
