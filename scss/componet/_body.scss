@@ -1,4 +1,4 @@
-
+@use '../utilities/' as var;
 
 // body
 
@@ -16,7 +16,7 @@ ul {
   h2, 
   h3, 
   p {
-    font-family: Roboto;
+    font-family: var.$base-font;
     text-align: center;
   
   }
@@ -30,18 +30,16 @@ ul {
       }
   
   .fi-1 {
-    min-height: 25px;
+    min-height: var.$min-hit;
   } 
   .fi-2 {
-    min-height: 25px;
+    min-height: var.$min-hit;
   }
   .fi-3 {
-    min-height: 25px;
+    min-height: var.$min-hit;
   }  
   .footer-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+   @include var.flex-row;
   }
   .fi-5, .fi-6, .fi-7 {
     display: none;

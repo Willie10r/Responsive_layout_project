@@ -1,4 +1,4 @@
-
+@use '../utilities/' as var;
 // break point for 768
 
 @media (min-width: 768px) {
@@ -37,16 +37,10 @@
   
     }
     .sub-1-1 {
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 1;
-      grid-column-end: 2;
+      @include var.sub1-1;
     }
     .sub-1-2 {
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 2;
-      grid-column-end: 2;
+      @include var.sub1-2;
     }
     /* picture width correction */
     .pics {
@@ -141,18 +135,12 @@
     }
     .sub-1-1 {
     
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 1;
-      grid-column-end: 2;
+      @include var.sub1-1;
     }
     .sub-1-2 {
       margin-left: 15px;
       margin-right: 15px;
-      grid-row-start: 1;
-      grid-row-end: 2;
-      grid-column-start: 2;
-      grid-column-end: 2;
+      @include var.sub1-2;
     }
     .sub-1-3 {
       grid-row-start: 1;
