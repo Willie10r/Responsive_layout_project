@@ -1,0 +1,49 @@
+
+
+// body
+
+
+ul {
+    list-style: none;
+  }
+  .pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  h1, 
+  h2, 
+  h3, 
+  p {
+    font-family: Roboto;
+    text-align: center;
+  
+  }
+    .main-nav {
+      display: flex;
+      flex-direction: column;
+      flex-grow: inherit;
+      align-items: center;
+      width: 100vw;
+      padding-left: 0;
+      }
+  
+  .fi-1 {
+    min-height: 25px;
+  } 
+  .fi-2 {
+    min-height: 25px;
+  }
+  .fi-3 {
+    min-height: 25px;
+  }  
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .fi-5, .fi-6, .fi-7 {
+    display: none;
+  }
+  
